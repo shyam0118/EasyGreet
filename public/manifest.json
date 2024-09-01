@@ -1,16 +1,22 @@
 {
-    "manifest_version": 3,
-    "name": "Hello World Extension",
-    "version": "1.0",
-    "description": "A simple Chrome extension with Next.js",
-    "action": {
-      "default_popup": "index.html",
-      "default_icon": {
-        "16": "icon16.svg",
-        "48": "icon48.svg",
-        "128": "icon128.svg"
-      }
-    },
-    "permissions": []
+  "manifest_version": 3,
+  "name": "Dynamic Greeting Extension",
+  "version": "1.0",
+  "description": "An extension that greets users based on the time of day.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon16.svg",
+      "48": "icon48.svg",
+      "128": "icon128.svg"
+    }
+  },
+  "icons": {
+    "16": "icon16.svg",
+    "48": "icon48.svg",
+    "128": "icon128.svg"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
   }
-
+}
