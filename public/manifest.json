@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Dynamic Greeting Extension",
   "version": "1.0",
-  "description": "An extension that greets users based on the time of day.",
+  "description": "Extension that greets users based on the time of day.",
   "action": {
     "default_popup": "index.html",
     "default_icon": {
